@@ -22,17 +22,6 @@
     "check-test-types": "tsc ./__tests__/** --noEmit",
     "test": "jest"
   },
-  "dependencies": {
-    "lodash": "^4.17.15",
-    "react-native": "^0.63.2",
-    "@zup-it/beagle-web": "1.0.1"
-  },
-  "peerDependencies": {
-    "react": ">=16.8.0"
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.14.149"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org",
