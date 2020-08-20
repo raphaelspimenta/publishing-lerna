@@ -1,3 +1,3 @@
 export interface Test {
-  number: number
+  number: number,
 }
