@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/sum",
+  "name": "sum-test-for-lerna-publish",
   "version": "1.0.1",
   "main": "sum/src/index.js",
   "typings": "sum/src/index.d.ts",

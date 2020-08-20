@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/sub",
+  "name": "sub-test-for-lerna-publish",
   "version": "1.0.1",
   "main": "sub/src/index.js",
   "typings": "sub/src/index.d.ts",
