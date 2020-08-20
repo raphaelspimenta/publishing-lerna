@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "lerna-publishing-typescript",
+  "version": "1.0.1",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "workspaces": {
+    "packages": ["packages/sum", "packages/sub"]
+  },
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "check-types": "lerna run check-types",
+    "publish:local": "lerna run publish:local",
+    "clean": "lerna run clean",
+    "build": "lerna run build",
+    "check-test-types": "lerna run check-test-types",
+    "watch": "lerna run watch"
+  },
+  "devDependencies": {
+    "@types/enzyme": "3.10.5",
+    "@types/enzyme-adapter-react-16": "1.0.6",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "@types/jest": "25.1.4",
+    "@types/react": "16.9.23",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^26.1.0",
+    "lerna": "^3.22.1",
+    "react": "^16.13.1",
+    "nodemon": "^2.0.4",
+    "ts-jest": "25.2.1",
+    "tscpaths": "https://github.com/Tiagoperes/tscpaths.git#498769882091cfe6fd8c4067bb50843dc4ca551e",
+    "typescript": "^3.8.3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "packages": ["packages/sum", "packages/sub"],
+  "version": "1.0.1",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}

@@ -1,0 +1,23 @@
+# Publish
+dist
+
+# OSX
+.DS_Store
+
+# IDE's
+.vscode
+.idea
+
+# node.js
+package-lock.json
+node_modules
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# yalc
+.yalc/
+yalc.lock
+
+# Tests
+coverage
